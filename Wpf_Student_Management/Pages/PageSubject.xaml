@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="Wpf_Student_Management.Page.PageSubject"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Wpf_Student_Management.Page"
+             mc:Ignorable="d" 
+                          d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="101*"/>
+            <ColumnDefinition Width="99*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Search by title:" FontSize="13" HorizontalAlignment="Left" Margin="6,125,0,0" VerticalAlignment="Top" Height="31" />
+        <TextBox Name="txtSearchValue" HorizontalAlignment="Left" Margin="138,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="269,129,0,0" VerticalAlignment="Top" Click="btnSearch_Click"/>
+
+        <Button Content="ADD" Margin="198,47,72,0" VerticalAlignment="Top" Height="72" Click="Add_Btn_Click" Grid.Column="1"/>
+        <Label Content="SUBJECTS" FontSize="35" HorizontalAlignment="Left" Margin="44,55,0,0" VerticalAlignment="Top"/>
+
+        <DataGrid Name="subjectsGrid" AutoGenerateColumns="False" Margin="0,161,0,0" Grid.ColumnSpan="2" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding SubjectId}"/>
+                <DataGridTextColumn Header="Title" Binding="{Binding Title}"/>
+
+                <DataGridTextColumn Header="Number of Students" Binding="{Binding NumberOfStudents}"/>
+                <DataGridTextColumn Header="Number of Teachers" Binding="{Binding NumberOfTeachers}"/>
+                <DataGridTextColumn Header="Number of Classes" Binding="{Binding NumberOfClasses}"/>
+
+
+                <DataGridTemplateColumn Header="Actions">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Content="Update" Margin="2" Click="UpdateButton_Click" Tag="{Binding SubjectId}"/>
+                                <Button Content="Delete" Margin="2" Click="DeleteButton_Click" Tag="{Binding SubjectId}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

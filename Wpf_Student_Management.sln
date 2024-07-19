@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf_Student_Management", "Wpf_Student_Management\Wpf_Student_Management.csproj", "{3B8CA074-1D99-4990-904C-2FD16E78480C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{72B64F03-3C18-4788-93B5-8DFB2C46E245}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B8CA074-1D99-4990-904C-2FD16E78480C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8CA074-1D99-4990-904C-2FD16E78480C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8CA074-1D99-4990-904C-2FD16E78480C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8CA074-1D99-4990-904C-2FD16E78480C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B64F03-3C18-4788-93B5-8DFB2C46E245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B64F03-3C18-4788-93B5-8DFB2C46E245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B64F03-3C18-4788-93B5-8DFB2C46E245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B64F03-3C18-4788-93B5-8DFB2C46E245}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F36B084-57B2-4DA5-892D-B2D2B36BB266}
+	EndGlobalSection
+EndGlobal

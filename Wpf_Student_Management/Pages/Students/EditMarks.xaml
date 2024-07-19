@@ -1,0 +1,38 @@
+﻿<Window x:Class="Wpf_Student_Management.Pages.Students.EditMarks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Student_Management.Pages.Students"
+        mc:Ignorable="d"
+        Title="EditMarks" Height="450" Width="600"
+        WindowStartupLocation="CenterScreen" Topmost="True">
+    <Grid>
+        <DataGrid Name="editMarksGrid" AutoGenerateColumns="False" Margin="0,161,0,0" Grid.ColumnSpan="2" IsReadOnly="True">
+    <DataGrid.Columns>
+        <DataGridTextColumn Header="Student Id" Binding="{Binding StudentId}"/>
+                <DataGridTextColumn Header="Subject Id" Binding="{Binding SubjectId}"/>
+                <DataGridTextColumn Header="Mark" Binding="{Binding Mark1}"/>
+                <DataGridTextColumn Header="Date" Binding="{Binding Date}"/>
+                <DataGridTemplateColumn Header="Actions">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Content="Update" Margin="2" Click="UpdateButton_Click" Tag="{Binding MarkId}"/>
+                                <Button Content="Delete" Margin="2" Click="DeleteButton_Click" Tag="{Binding MarkId}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+</DataGrid>
+        <ComboBox Name="subjectComboBox" DisplayMemberPath="SubjectId" SelectedValuePath="SubjectId"
+                  HorizontalAlignment="Left" Margin="150,106,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.304,0.439" 
+                  SelectionChanged="subjectComboBox_SelectionChanged"
+                  SelectedValue="{Binding SelectedSubjectId, Mode=TwoWay}" />
+        <Label Content="Edit Marks" FontSize="35" HorizontalAlignment="Left" Margin="10,27,0,0" VerticalAlignment="Top"/>
+        <Label Content="Choose subject id: " HorizontalAlignment="Left" Margin="24,102,0,0" VerticalAlignment="Top"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="429,40,0,0" VerticalAlignment="Top" Height="77" Width="117" Click="Button_Click"/>
+
+    </Grid>
+</Window>

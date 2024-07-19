@@ -1,0 +1,20 @@
+﻿Wpf_Student_Management
+
+
+winexe
+C#
+.cs
+D:\PRN212\CSharp\New folder\My_Project\Wpf_Student_Management\obj\Debug\net8.0-windows\
+Wpf_Student_Management
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+D:\PRN212\CSharp\New folder\My_Project\Wpf_Student_Management\App.xaml
+21809391608
+
+311959748041
+247-2076737498
+MainWindow.xaml;Pages\Classes\Add_Class.xaml;Pages\Classes\Assign_Student.xaml;Pages\Classes\Update_Class.xaml;Pages\PageClass.xaml;Pages\PageStudent.xaml;Pages\PageSubject.xaml;Pages\PageTeacher.xaml;Pages\Students\Add_Mark.xaml;Pages\Students\Add_StudentClass.xaml;Pages\Students\Add_Students.xaml;Pages\Students\EditMarks.xaml;Pages\Students\Edit_Class.xaml;Pages\Students\Update_Mark.xaml;Pages\Students\Update_Student.xaml;Pages\Subjects\Add_Subject.xaml;Pages\Subjects\Update_Subject.xaml;Pages\Teachers\Add_SubjectTeacher.xaml;Pages\Teachers\Add_Teacher.xaml;Pages\Teachers\Join.xaml;Pages\Teachers\Update_Teacher.xaml;
+
+False
+

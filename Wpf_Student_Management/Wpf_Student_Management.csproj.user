@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Pages\Classes\Add_Class.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Classes\Assign_Student.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Classes\Update_Class.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageClass.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageStudent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageSubject.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageTeacher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Students\Add_Mark.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Students\Add_StudentClass.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Students\Add_Students.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Students\EditMarks.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Students\Edit_Class.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Students\Update_Mark.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Students\Update_Student.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Subjects\Add_Subject.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Subjects\Update_Subject.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Teachers\Add_SubjectTeacher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Teachers\Add_Teacher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Teachers\Join.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Teachers\Update_Teacher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Classes\Add_Class.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Classes\Assign_Student.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Classes\Update_Class.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageClass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageStudent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageSubject.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageTeacher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Students\Add_Mark.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Students\Add_StudentClass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Students\Add_Students.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Students\EditMarks.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Students\Edit_Class.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Students\Update_Mark.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Students\Update_Student.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Subjects\Add_Subject.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Subjects\Update_Subject.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Teachers\Add_SubjectTeacher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Teachers\Add_Teacher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Teachers\Join.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Teachers\Update_Teacher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
