@@ -1,0 +1,54 @@
+﻿<Page x:Class="GUI.TeacherAddStudent"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:GUI"
+      mc:Ignorable="d" 
+      d:DesignHeight="591" d:DesignWidth="1028"
+      Title="Add Student">
+    <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect Fadein, Duration=0:0:0.5}">
+        <Grid Margin="0,4,0,0">
+            <Image Source="img/icons/addstudent_avatar.png" Margin="60,150,718,0" HorizontalAlignment="Center" VerticalAlignment="Top" Height="250" Width="250"/>
+            <Label Content="ID:" HorizontalAlignment="Left" Margin="365,205,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="128" Height="34"/>
+            <Label Content="Date of birth:"  HorizontalAlignment="Left" Margin="365,316,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <Label Content="Gender:"  HorizontalAlignment="Left" Margin="365,396,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <Label Content="Email:"  HorizontalAlignment="Left" Margin="365,356,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <Label Content="Phone Number:"  HorizontalAlignment="Left" Margin="365,440,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <TextBox materialDesign:HintAssist.Hint="Enter ID here" CharacterCasing="Upper" BorderThickness="0" Name="id_addstudent" HorizontalAlignment="Left" Margin="577,205,0,0" VerticalAlignment="Top" FontSize="20" Width="285"/>
+            <TextBox materialDesign:HintAssist.Hint="Enter BOD here" BorderThickness="0" Name="birthofday_addstudent" HorizontalAlignment="Left" Margin="577,318,0,0" VerticalAlignment="Top" FontSize="20" Width="285"/>
+            <TextBox materialDesign:HintAssist.Hint="Enter email here" BorderThickness="0" Name="email_addstudent"  HorizontalAlignment="Left" Margin="577,358,0,0" VerticalAlignment="Top" FontSize="20" Width="285"/>
+            <ComboBox materialDesign:HintAssist.Hint="Enter gender here" BorderThickness="0" HorizontalAlignment="Left" Name="gender_addstudent" Margin="577,398,0,0" VerticalAlignment="Top" FontSize="20" Width="285">
+                <ComboBoxItem IsSelected="True">(Empty)</ComboBoxItem>
+                <ComboBoxItem>Male</ComboBoxItem>
+                <ComboBoxItem>Female</ComboBoxItem>
+            </ComboBox>
+            <TextBox materialDesign:HintAssist.Hint="Enter phone number here" BorderThickness="0" HorizontalAlignment="Left" Name="phone_addstudent" Margin="577,442,0,0" VerticalAlignment="Top" FontSize="20" Width="285"/>
+            <Rectangle Fill="orange" HorizontalAlignment="Left" Height="55" Margin="0,536,0,0" VerticalAlignment="Top" Width="1028"/>
+
+            <Button Padding="0" Name="btnDoneOfAddUser" HorizontalAlignment="Left" Margin="948,545,0,0" VerticalAlignment="Top" Width="70" Click="btnDoneofAddUser_click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="img/icons/done_btn.png" Margin="-2,0,0,0" Height="25" Width="25"></Image>
+                    <TextBlock Margin="2,0,0,0" Height="20"><Run Text="Done"/></TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Padding="0" x:Name="btnCancel" HorizontalAlignment="Left" Margin="868,545,0,0" VerticalAlignment="Top" Width="75" Click="btnCancel_click" Background="#FFF32121" BorderBrush="#FFF32121">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="img/icons/remove_btn.png" Margin="-2,0,0,0" Height="25" Width="25"/>
+                    <TextBlock Margin="2,0,0,0" Height="20"><Run Text="Cancel"/></TextBlock>
+                </StackPanel>
+            </Button>
+            <Label Content="Add student"  HorizontalAlignment="Left" Margin="365,80,0,0" VerticalAlignment="Top" FontSize="36" FontWeight="Bold" Width="232" Height="51"/>
+            <Label Content="to continue to system" HorizontalContentAlignment="Left" VerticalContentAlignment="Top"  HorizontalAlignment="Left" Margin="365,126,0,0" VerticalAlignment="Top" FontSize="18" Width="198" Height="35"/>
+            <Label Content="Password"  HorizontalAlignment="Left" Margin="365,279,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+            <PasswordBox materialDesign:HintAssist.Hint="Enter password here" BorderThickness="0" x:Name="password_addstudent" HorizontalAlignment="Left" Margin="577,279,0,0" VerticalAlignment="Top" FontSize="20" Width="185" Height="37"/>
+            <PasswordBox materialDesign:HintAssist.Hint="Confirm" BorderThickness="0" x:Name="passwordconfirm_addstudent" HorizontalAlignment="Left" Margin="797,279,0,0" VerticalAlignment="Top" FontSize="20" Width="186" Height="37"/>
+            <ComboBox FontSize="15" VerticalContentAlignment="Center"  x:Name="chooseYear" Loaded="ComboBox_Years_Loaded" Margin="712,167,166,387" Height="33"/>
+            <Label Content="Year:" HorizontalAlignment="Left" Margin="631,166,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="81" Height="34"/>
+            <Label Content="Full name:" HorizontalAlignment="Left" Margin="365,245,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Width="128" Height="34"/>
+            <TextBox materialDesign:HintAssist.Hint="Enter full name here" CharacterCasing="Upper" BorderThickness="0" x:Name="fname_addstudent" HorizontalAlignment="Left" Margin="577,245,0,0" VerticalAlignment="Top" FontSize="20" Width="285"/>
+
+        </Grid>
+    </materialDesign:TransitioningContent>
+</Page>

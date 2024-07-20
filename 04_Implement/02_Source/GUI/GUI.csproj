@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E44D5B0B-D570-4003-8546-B77896DB1FE3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialDesignColors">
+      <HintPath>..\packages\MaterialDesignColors.1.1.2\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf">
+      <HintPath>..\packages\MaterialDesignThemes.2.3.1.953\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="TeacherAddStudent.xaml.cs">
+      <DependentUpon>TeacherAddStudent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCreateUser.xaml.cs">
+      <DependentUpon>AdminCreateUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherManageClasses.xaml.cs">
+      <DependentUpon>TeacherManageClasses.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherReport.xaml.cs">
+      <DependentUpon>TeacherReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherReportChart.xaml.cs">
+      <DependentUpon>TeacherReportChart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherRole.xaml.cs">
+      <DependentUpon>TeacherRole.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherManageTeacher.xaml.cs">
+      <DependentUpon>TeacherManageTeacher.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherManageStudent.xaml.cs">
+      <DependentUpon>TeacherManageStudent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherUpdateScore.xaml.cs">
+      <DependentUpon>TeacherUpdateScore.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewStudentScore.xaml.cs">
+      <DependentUpon>ReviewStudentScore.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherSearchStudent.xaml.cs">
+      <DependentUpon>TeacherSearchStudent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherMyInformation.xaml.cs">
+      <DependentUpon>TeacherMyInformation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AdminMyInformation.xaml.cs">
+      <DependentUpon>AdminMyInformation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StudentMyInformation.xaml.cs">
+      <DependentUpon>StudentMyInformation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminManageUser.xaml.cs">
+      <DependentUpon>AdminManageUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StudentMyScore.xaml.cs">
+      <DependentUpon>StudentMyScore.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DashboardAdmin.xaml.cs">
+      <DependentUpon>DashboardAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardStudent.xaml.cs">
+      <DependentUpon>DashboardStudent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardTeacher.xaml.cs">
+      <DependentUpon>DashboardTeacher.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{4a71ab08-6bc9-4411-b6cb-d25803e9d224}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{c4f30d11-4d16-4dca-9111-fb5167a21546}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="TeacherAddStudent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminCreateUser.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TeacherManageClasses.xaml">
+      <SubType>Designer</SubType>
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="TeacherReport.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TeacherReportChart.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TeacherRole.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TeacherManageTeacher.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TeacherManageStudent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TeacherUpdateScore.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ReviewStudentScore.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TeacherSearchStudent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TeacherMyInformation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DashboardAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DashboardStudent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DashboardTeacher.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AdminMyInformation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StudentMyInformation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AdminManageUser.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StudentMyScore.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\logo_icon.png" />
+    <Resource Include="img\icons\pass_icon.png" />
+    <Resource Include="img\icons\user_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\admin_icon_white.png" />
+    <Resource Include="img\icons\student_icon_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\teacher_icon_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\logo_app_desktop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\logo_icon_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\student_avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\logout_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\edit_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\done_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\teacher_avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\admin_avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\myinformation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\myscore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\adduser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\adduser_avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\manageuser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\manageuser_avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\remove_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\searchstudent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\updatescore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\viewscore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\addstudent_avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\manageteacher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\managesutdent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\manageclass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\role.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

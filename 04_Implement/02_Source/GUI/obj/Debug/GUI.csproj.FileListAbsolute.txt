@@ -1,0 +1,130 @@
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\bin\Debug\GUI.exe.config
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\bin\Debug\GUI.exe
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\bin\Debug\GUI.pdb
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\bin\Debug\BUS.dll
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\bin\Debug\DTO.dll
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\bin\Debug\MaterialDesignColors.dll
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\bin\Debug\DAO.dll
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\bin\Debug\BUS.pdb
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\bin\Debug\DTO.pdb
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\bin\Debug\DAO.pdb
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherAddStudent.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\AdminCreateUser.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherManageClasses.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherReport.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherReportChart.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherRole.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherManageTeacher.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherManageStudent.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherUpdateScore.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\ReviewStudentScore.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherSearchStudent.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherMyInformation.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\DashboardAdmin.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\DashboardStudent.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\DashboardTeacher.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\MainWindow.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\AdminMyInformation.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\StudentMyInformation.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\AdminManageUser.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\StudentMyScore.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\App.g.cs
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\GUI_MarkupCompile.cache
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\GUI_MarkupCompile.lref
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\App.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherAddStudent.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\AdminCreateUser.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherManageClasses.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherReport.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherReportChart.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherRole.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherManageTeacher.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherManageStudent.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherUpdateScore.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\ReviewStudentScore.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherSearchStudent.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\TeacherMyInformation.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\DashboardAdmin.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\DashboardStudent.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\DashboardTeacher.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\MainWindow.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\AdminMyInformation.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\StudentMyInformation.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\AdminManageUser.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\StudentMyScore.baml
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\GUI.g.resources
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\GUI.exe
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\GUI\obj\Debug\GUI.pdb
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherAddStudent.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\AdminCreateUser.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherManageClasses.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherReport.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherReportChart.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherRole.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherManageTeacher.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherManageStudent.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherUpdateScore.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\ReviewStudentScore.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherSearchStudent.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherMyInformation.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\DashboardAdmin.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\DashboardStudent.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\DashboardTeacher.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\MainWindow.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\AdminMyInformation.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\StudentMyInformation.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\AdminManageUser.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\StudentMyScore.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\App.g.cs
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\GUI_MarkupCompile.cache
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\GUI_MarkupCompile.lref
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\GUI.exe
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\GUI.pdb
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\bin\Debug\GUI.exe.config
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\bin\Debug\GUI.exe
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\bin\Debug\GUI.pdb
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\bin\Debug\BUS.dll
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\bin\Debug\DTO.dll
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\bin\Debug\MaterialDesignColors.dll
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\bin\Debug\DAO.dll
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\bin\Debug\BUS.pdb
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\bin\Debug\DTO.pdb
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\bin\Debug\DAO.pdb
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\App.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherAddStudent.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\AdminCreateUser.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherManageClasses.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherReport.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherReportChart.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherRole.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherManageTeacher.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherManageStudent.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherUpdateScore.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\ReviewStudentScore.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherSearchStudent.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\TeacherMyInformation.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\DashboardAdmin.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\DashboardStudent.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\DashboardTeacher.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\MainWindow.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\AdminMyInformation.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\StudentMyInformation.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\AdminManageUser.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\StudentMyScore.baml
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\GUI.g.resources
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\GUI\obj\Debug\GUI.csproj.Up2Date

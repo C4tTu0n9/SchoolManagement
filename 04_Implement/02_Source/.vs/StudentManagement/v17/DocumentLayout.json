@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|d:\\c#\\nonononononononono\\noo1\\ise_nmh_13-master\\04_implement\\02_source\\gui\\dashboardteacher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|solutionrelative:gui\\dashboardteacher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|d:\\c#\\nonononononononono\\noo1\\ise_nmh_13-master\\04_implement\\02_source\\gui\\dashboardadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|solutionrelative:gui\\dashboardadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|d:\\c#\\nonononononononono\\noo1\\ise_nmh_13-master\\04_implement\\02_source\\gui\\dashboardstudent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|solutionrelative:gui\\dashboardstudent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|d:\\c#\\nonononononononono\\noo1\\ise_nmh_13-master\\04_implement\\02_source\\gui\\teacherreportchart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|solutionrelative:gui\\teacherreportchart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|d:\\c#\\nonononononononono\\noo1\\ise_nmh_13-master\\04_implement\\02_source\\gui\\teacherupdatescore.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|solutionrelative:gui\\teacherupdatescore.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|d:\\c#\\nonononononononono\\noo1\\ise_nmh_13-master\\04_implement\\02_source\\gui\\teachermanageteacher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|solutionrelative:gui\\teachermanageteacher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|d:\\c#\\nonononononononono\\noo1\\ise_nmh_13-master\\04_implement\\02_source\\gui\\teachermyinformation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|solutionrelative:gui\\teachermyinformation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|d:\\c#\\nonononononononono\\noo1\\ise_nmh_13-master\\04_implement\\02_source\\gui\\teacherreport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|solutionrelative:gui\\teacherreport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|d:\\c#\\nonononononononono\\noo1\\ise_nmh_13-master\\04_implement\\02_source\\gui\\teacherrole.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|solutionrelative:gui\\teacherrole.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F30D11-4D16-4DCA-9111-FB5167A21546}|DTO\\DTO.csproj|d:\\c#\\nonononononononono\\noo1\\ise_nmh_13-master\\04_implement\\02_source\\dto\\markdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4F30D11-4D16-4DCA-9111-FB5167A21546}|DTO\\DTO.csproj|solutionrelative:dto\\markdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4F30D11-4D16-4DCA-9111-FB5167A21546}|DTO\\DTO.csproj|d:\\c#\\nonononononononono\\noo1\\ise_nmh_13-master\\04_implement\\02_source\\dto\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4F30D11-4D16-4DCA-9111-FB5167A21546}|DTO\\DTO.csproj|solutionrelative:dto\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|d:\\c#\\nonononononononono\\noo1\\ise_nmh_13-master\\04_implement\\02_source\\gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44D5B0B-D570-4003-8546-B77896DB1FE3}|GUI\\GUI.csproj|solutionrelative:gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardTeacher.xaml",
+              "DocumentMoniker": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\DashboardTeacher.xaml",
+              "RelativeDocumentMoniker": "GUI\\DashboardTeacher.xaml",
+              "ToolTip": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\DashboardTeacher.xaml",
+              "RelativeToolTip": "GUI\\DashboardTeacher.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T09:05:31.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardAdmin.xaml",
+              "DocumentMoniker": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\DashboardAdmin.xaml",
+              "RelativeDocumentMoniker": "GUI\\DashboardAdmin.xaml",
+              "ToolTip": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\DashboardAdmin.xaml",
+              "RelativeToolTip": "GUI\\DashboardAdmin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T09:05:28.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardStudent.xaml",
+              "DocumentMoniker": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\DashBoardStudent.xaml",
+              "RelativeDocumentMoniker": "GUI\\DashBoardStudent.xaml",
+              "ToolTip": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\DashBoardStudent.xaml",
+              "RelativeToolTip": "GUI\\DashBoardStudent.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T09:05:23.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeacherReportChart.xaml",
+              "DocumentMoniker": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\TeacherReportChart.xaml",
+              "RelativeDocumentMoniker": "GUI\\TeacherReportChart.xaml",
+              "ToolTip": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\TeacherReportChart.xaml",
+              "RelativeToolTip": "GUI\\TeacherReportChart.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T08:58:32.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeacherUpdateScore.xaml",
+              "DocumentMoniker": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\TeacherUpdateScore.xaml",
+              "RelativeDocumentMoniker": "GUI\\TeacherUpdateScore.xaml",
+              "ToolTip": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\TeacherUpdateScore.xaml",
+              "RelativeToolTip": "GUI\\TeacherUpdateScore.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T08:58:29.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeacherManageTeacher.xaml",
+              "DocumentMoniker": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\TeacherManageTeacher.xaml",
+              "RelativeDocumentMoniker": "GUI\\TeacherManageTeacher.xaml",
+              "ToolTip": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\TeacherManageTeacher.xaml",
+              "RelativeToolTip": "GUI\\TeacherManageTeacher.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T08:56:25.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TeacherMyInformation.xaml",
+              "DocumentMoniker": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\TeacherMyInformation.xaml",
+              "RelativeDocumentMoniker": "GUI\\TeacherMyInformation.xaml",
+              "ToolTip": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\TeacherMyInformation.xaml",
+              "RelativeToolTip": "GUI\\TeacherMyInformation.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T08:56:22.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TeacherReport.xaml",
+              "DocumentMoniker": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\TeacherReport.xaml",
+              "RelativeDocumentMoniker": "GUI\\TeacherReport.xaml",
+              "ToolTip": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\TeacherReport.xaml",
+              "RelativeToolTip": "GUI\\TeacherReport.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T08:56:15.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TeacherRole.xaml",
+              "DocumentMoniker": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\TeacherRole.xaml",
+              "RelativeDocumentMoniker": "GUI\\TeacherRole.xaml",
+              "ToolTip": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\TeacherRole.xaml",
+              "RelativeToolTip": "GUI\\TeacherRole.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T08:54:01.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MarkDTO.cs",
+              "DocumentMoniker": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\DTO\\MarkDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\MarkDTO.cs",
+              "ToolTip": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\DTO\\MarkDTO.cs",
+              "RelativeToolTip": "DTO\\MarkDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:53:48.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\DTO\\Report.cs",
+              "RelativeDocumentMoniker": "DTO\\Report.cs",
+              "ToolTip": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\DTO\\Report.cs",
+              "RelativeToolTip": "DTO\\Report.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:53:11.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\C#\\NONONONONONONONONO\\NOO1\\ISE_NMH_13-master\\04_Implement\\02_Source\\GUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GUI\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAAHkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:38:57.011Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

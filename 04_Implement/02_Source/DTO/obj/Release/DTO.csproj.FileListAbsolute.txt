@@ -1,0 +1,6 @@
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\DTO\bin\Release\DTO.dll
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\DTO\bin\Release\DTO.pdb
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\DTO\obj\Release\DTO.csproj.CoreCompileInputs.cache
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\DTO\obj\Release\DTO.dll
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\DTO\obj\Release\DTO.pdb
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\DTO\obj\Release\DTO.csprojAssemblyReference.cache

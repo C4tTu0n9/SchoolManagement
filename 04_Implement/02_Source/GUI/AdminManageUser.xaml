@@ -1,0 +1,114 @@
+﻿<Page x:Class="GUI.AdminManageUser"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:GUI"
+      mc:Ignorable="d" 
+      xmlns:data="namespace:GUI"
+      d:DesignHeight="591" d:DesignWidth="1028"
+      Title="Manage User" Loaded="Window_Loaded_User">
+
+    <Page.Resources>
+        <DataTemplate x:Key="InformationOfAdminTemplate" DataType="PeopleDTO">
+            <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.5}">
+                <StackPanel Background="#CFE6FF"  Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,0">
+                    <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="35" Width="100" Foreground="#305066" Content="{Binding Id}" FontSize="14"/>
+                    <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Height="35" Width="180" Foreground="#305066" Content="{Binding Name}" FontSize="14"/>
+                    <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="35" Width="180" Foreground="#305066" Content="{Binding Type}" FontSize="14"/>
+                    <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="35" Width="90" Foreground="#305066" Content="{Binding Status}" FontSize="14"/>
+                </StackPanel>
+            </materialDesign:TransitioningContent>
+        </DataTemplate>
+    </Page.Resources>
+    <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect Fadein, Duration=0:0:0.5}">
+        <Grid>
+            <StackPanel Margin="0,80,0,0" HorizontalAlignment="Center" Orientation="Horizontal" VerticalAlignment="Top">
+                <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,0,0" FontSize="14" FontWeight="Bold" Content="Authories:"/>
+                <ComboBox Width="100" x:Name="chooseAuthor" FontSize="14" SelectionChanged="ChooseAuthor_SelectionChanged">
+                    <ComboBoxItem IsSelected="True" FontSize="14" Content="All"/>
+                    <ComboBoxItem FontSize="14" Content="Student"/>
+                    <ComboBoxItem FontSize="14" Content="Teacher"/>
+                </ComboBox>
+                <Label  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="20,0,0,0" FontSize="14" FontWeight="Bold" Content="Status:"/>
+                <ComboBox Width="70" x:Name="chooseStatus" FontSize="14" SelectionChanged="ChooseStatus_SelectionChanged">
+                    <ComboBoxItem IsSelected="True" FontSize="14"  Content="All"/>
+                    <ComboBoxItem FontSize="14" Content="Active"/>
+                    <ComboBoxItem FontSize="14" Content="Deactive"/>
+                </ComboBox>
+            </StackPanel>
+            <TextBlock  Margin="0,130,0,0">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                 <Border  Margin="20,0,0,0" CornerRadius="20" Height="40" Background="Orange">
+                    <Label Foreground="#fff" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="75" FontSize="14">ID</Label>
+                 </Border>
+                 <Border  Margin="30,0,0,0" CornerRadius="20" Background="Orange">
+                    <Label Foreground="#fff" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="170" FontSize="14">Full Name</Label>
+                 </Border>
+                 <Border  Margin="35,0,0,0" CornerRadius="20" Background="Orange">
+                    <Label Foreground="#fff" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="100" FontSize="14">Authories</Label>
+                 </Border>
+                 <Border  Margin="40,0,0,0" CornerRadius="20" Background="Orange">
+                    <Label Foreground="#fff" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="85" FontSize="14">Status</Label>
+                 </Border>
+            </StackPanel>
+            </TextBlock>
+            <ListView MouseUp="SelectItem" Margin="0,182,445,0" Name="listviewUser" ItemTemplate="{StaticResource InformationOfAdminTemplate}" SelectionChanged="test_SelectionChanged">
+            
+            </ListView>
+
+            <TextBox  materialDesign:HintAssist.Hint="Search..." HorizontalAlignment="Left" FontSize="14" Height="39" Margin="308,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="465" Name="searchUser" TextChanged="SearchUser_TextChanged"/>
+            <Image Source="img/icons/manageuser_avatar.png" Width="100" Height="100" Margin="741,130,187,361"></Image>
+            <Label Content="Full name:"  HorizontalAlignment="Left" Margin="596,257,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold" Width="140" Height="34"/>
+            <Label Content="Date of birth:"  HorizontalAlignment="Left" Margin="596,297,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold" Width="140"/>
+            <Label Content="Gender:"  HorizontalAlignment="Left" Margin="596,425,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold" Width="140"/>
+            <Label Content="Email:"  HorizontalAlignment="Left" Margin="596,339,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold" Width="140"/>
+            <Label Content="Phone number:"  HorizontalAlignment="Left" Margin="596,467,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold" Width="140"/>
+            <TextBox materialDesign:HintAssist.Hint="Select user to continue" CharacterCasing="Upper" BorderThickness="0" IsReadOnly="True"  x:Name="fullname_user_infor" HorizontalAlignment="Left" Margin="741,257,0,0" VerticalAlignment="Top" FontSize="17" Width="255"/>
+            <TextBox materialDesign:HintAssist.Hint="Select user to continue" BorderThickness="0" IsReadOnly="True"  x:Name="birthofday_user_infor" HorizontalAlignment="Left" Margin="741,297,0,0" VerticalAlignment="Top" FontSize="17" Width="255"/>
+            <TextBox materialDesign:HintAssist.Hint="Select user to continue" BorderThickness="0" IsReadOnly="True" x:Name="email_user_infor"  HorizontalAlignment="Left" Margin="741,341,0,0" VerticalAlignment="Top" FontSize="17" Width="255"/>
+            <ComboBox IsEnabled="False" materialDesign:HintAssist.Hint="Select user to continue" BorderThickness="0" IsReadOnly="True"  HorizontalAlignment="Left" x:Name="gender_user_infor" Margin="741,427,0,0" VerticalAlignment="Top" FontSize="17" Width="255">
+                <ComboBoxItem IsSelected="True">(Empty)</ComboBoxItem>
+                <ComboBoxItem>Male</ComboBoxItem>
+                <ComboBoxItem>Female</ComboBoxItem>
+            </ComboBox>
+            <TextBox materialDesign:HintAssist.Hint="Select user to continue" BorderThickness="0" IsReadOnly="True" HorizontalAlignment="Left" x:Name="phone_user_infor" Margin="741,469,0,0" VerticalAlignment="Top" FontSize="17" Width="255"/>
+            <Label Content="Authories:"  HorizontalAlignment="Left" Margin="596,505,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold" Width="140" />
+            <TextBox materialDesign:HintAssist.Hint="Select user to continue" BorderThickness="0" IsReadOnly="True" HorizontalAlignment="Left" x:Name="author_user_infor" Margin="741,505,0,0" VerticalAlignment="Top" FontSize="17" Width="255"/>
+            <Button Padding="0" Name="btnEdit" HorizontalAlignment="Left" Margin="928,549,0,0" VerticalAlignment="Top" Width="90" Click="btnEdit_Click" IsEnabled="False">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="img/icons/edit_btn.png" Margin="-2,0,0,0" Height="25" Width="25"></Image>
+                    <TextBlock Margin="2,0,0,0" Height="20"><Run Text="Edit"/></TextBlock>
+                </StackPanel>
+            </Button>
+            <Button  Visibility="Collapsed" Padding="0" Name="btnDelete" HorizontalAlignment="Left" Margin="596,549,0,0" Background="#E74C3C" BorderThickness="0" VerticalAlignment="Top" Width="90" Click="btnDelete_Click" >
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="img/icons/remove_btn.png" Margin="-2,0,0,0" Height="25" Width="25"></Image>
+                    <TextBlock Margin="2,0,0,0" Height="20"><Run Text="Deactive"/></TextBlock>
+                </StackPanel>
+            </Button>
+            <Button  Visibility="Collapsed" Padding="0" Name="btnCancel" HorizontalAlignment="Left" Margin="833,549,0,0" Background="#E74C3C" BorderThickness="0" VerticalAlignment="Top" Width="90" Click="btnCancel_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="img/icons/remove_btn.png" Margin="-2,0,0,0" Height="25" Width="25"></Image>
+                    <TextBlock Margin="2,0,0,0" Height="20"><Run Text="Cancel"/></TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Padding="0" Name="btnActive" HorizontalAlignment="Left" Margin="596,549,0,0" Background="#039866" BorderThickness="0" VerticalAlignment="Top" Width="90" Click="btnActive_Click" Visibility="Collapsed">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="img/icons/done_btn.png" Margin="-2,0,0,0" Height="25" Width="25"></Image>
+                    <TextBlock Margin="2,0,0,0" Height="20"><Run Text="Active"/></TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Padding="0" Name="btnDoneOfEdit" HorizontalAlignment="Left" Margin="928,549,0,0" VerticalAlignment="Top" Width="90" Click="btnDoneofEdit_click" Visibility="Collapsed">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="img/icons/done_btn.png" Margin="-2,0,0,0" Height="25" Width="25"></Image>
+                    <TextBlock Margin="2,0,0,0" Height="20"><Run Text="Done"/></TextBlock>
+                </StackPanel>
+            </Button>
+            <Label Content="Password"  HorizontalAlignment="Left" Margin="596,382,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
+            <PasswordBox IsEnabled="False" materialDesign:HintAssist.Hint="Select user to continue" BorderThickness="0" x:Name="password_user_infor" HorizontalAlignment="Left" Margin="741,382,0,0" VerticalAlignment="Top" FontSize="17" Width="175"/>
+            <Button x:Name="btn_Search" Content="Search" HorizontalAlignment="Left" Margin="786,32,0,0" VerticalAlignment="Top" Width="75" Click="Btn_Search_Click"/>
+        </Grid>
+    </materialDesign:TransitioningContent>
+</Page>

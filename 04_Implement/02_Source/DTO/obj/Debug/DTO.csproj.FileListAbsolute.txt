@@ -1,0 +1,12 @@
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\DTO\bin\Debug\DTO.dll
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\DTO\bin\Debug\DTO.pdb
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\DTO\obj\Debug\DTO.dll
+D:\Đại học\Năm 3_HKI\NM CNPM\Project\ISE_NMH_13\04_Implement\02_Source\DTO\obj\Debug\DTO.pdb
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\DTO\bin\Debug\DTO.dll
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\DTO\bin\Debug\DTO.pdb
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\DTO\obj\Debug\DTO.dll
+D:\C#\NONONONONONONONONO\NOO1\ISE_NMH_13-master\04_Implement\02_Source\DTO\obj\Debug\DTO.pdb

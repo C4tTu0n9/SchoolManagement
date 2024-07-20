@@ -1,0 +1,66 @@
+﻿<Page x:Class="GUI.TeacherReport"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:GUI"
+      mc:Ignorable="d" 
+      xmlns:data="namespace:GUI"
+      d:DesignHeight="591" d:DesignWidth="1028"
+      Title="Teacher Report" Loaded="Window_Loaded_Report">
+
+    <Page.Resources>
+        <DataTemplate x:Key="ReportTemplate" DataType="Report">
+            <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.5}">
+                <StackPanel Background="#CFE6FF"  Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,0">
+                    <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Padding="5" Height="35" Width="125" Foreground="#305066" Content="{Binding stt}" FontSize="14" />
+                    <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="35" Width="310" Foreground="#305066" Content="{Binding nameClass}" FontSize="14" FontWeight="Bold"/>
+                    <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="35" Width="180" Foreground="#305066" Content="{Binding tt}" FontSize="14"/>
+                    <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="35" Width="210" Foreground="#305066" Content="{Binding pass}" FontSize="14"/>
+                    <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Height="35" Width="170" Foreground="#305066" Content="{Binding scale}" FontSize="14"/>
+                </StackPanel>
+            </materialDesign:TransitioningContent>
+        </DataTemplate>
+    </Page.Resources>
+    <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect Fadein, Duration=0:0:0.5}">
+        <Grid>
+            <StackPanel Margin="0,25,0,0" HorizontalAlignment="Center" Orientation="Horizontal" VerticalAlignment="Top">
+                <Label  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="20,0,0,0" FontSize="14" FontWeight="Bold" Content="Type:"/>
+                <ComboBox Width="130" x:Name="chooseType" FontSize="14" SelectionChanged="chooseType_SelectionChanged">
+                    <ComboBoxItem FontSize="14" IsSelected="True"  Content="Semester"/>
+                    <ComboBoxItem FontSize="14"  Content="Subject"/>
+                </ComboBox>
+                <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="20,0,0,0" FontSize="14" FontWeight="Bold" Content="Subject:"/>
+                <ComboBox IsEnabled="False" Width="170" x:Name="chooseSubject" Loaded="Combobox_Loaded_Subject" FontSize="14" SelectionChanged="ChooseSubject_SelectionChanged"/>
+                <Label  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="20,0,0,0" FontSize="14" FontWeight="Bold" Content="Semester:"/>
+                <ComboBox Width="40" x:Name="chooseSemester" FontSize="14" SelectionChanged="ChooseSemester_SelectionChanged">
+                    <ComboBoxItem FontSize="14" IsSelected="True" Content="I"/>
+                    <ComboBoxItem FontSize="14" Content="II"/>
+                </ComboBox>
+                
+            </StackPanel>
+            <TextBlock  Margin="0,80,0,0">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                 <Border  Margin="35,0,0,0" CornerRadius="20" Height="40" Background="Orange">
+                    <Label Foreground="#fff" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="75" FontSize="14">No.</Label>
+                 </Border>
+                 <Border  Margin="55,0,0,0" CornerRadius="20" Background="Orange">
+                    <Label Foreground="#fff" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="240" FontSize="14">Class</Label>
+                 </Border>
+                 <Border  Margin="53,0,0,0" CornerRadius="20" Background="Orange">
+                    <Label Foreground="#fff" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="150" FontSize="14">Total</Label>
+                 </Border>
+                 <Border  Margin="45,0,0,0" CornerRadius="20" Background="Orange">
+                    <Label Foreground="#fff" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="150" FontSize="14">Passed</Label>
+                 </Border>
+                 <Border  Margin="40,0,0,0" CornerRadius="20" Background="Orange">
+                    <Label Foreground="#fff" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="150" FontSize="14">Ratio of passed</Label>
+                 </Border>
+            </StackPanel>
+            </TextBlock>
+            <ListView MouseUp="SelectItem" Margin="0,130,0,0" Name="test" ItemTemplate="{StaticResource ReportTemplate}">
+            </ListView>
+        </Grid>
+    </materialDesign:TransitioningContent>
+</Page>

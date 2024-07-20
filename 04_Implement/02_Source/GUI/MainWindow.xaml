@@ -1,0 +1,182 @@
+﻿<Window x:Class="GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        xmlns:data="namespace:GUI"
+        mc:Ignorable="d"
+        Icon="img/icons/logo_app_desktop.png"
+        Title="Log In" Height="672" Width="992" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None"  AllowsTransparency="True" Background="Transparent" >
+    <Border Background="#00a7ee" CornerRadius="0" BorderBrush="#00a7ee" BorderThickness="1.5">
+        <Grid>
+            <Border x:Name="TitleBar" Height="40" Background="White" CornerRadius="0" VerticalAlignment="Top" MouseLeftButtonDown="TitleBar_MouseLeftButtonDown" Margin="0,0,1,0">
+                <Label Content="Welcome to Student Management System"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right" Padding="0" VerticalAlignment="Top" Width="989" FontFamily="Arial" FontSize="17" FontWeight="Bold" BorderBrush="{x:Null}" Height="40" Foreground="Black" Margin="0,0,-1,0"/>
+            </Border>
+            <Rectangle HorizontalAlignment="Center" Height="512" Margin="284,98,291,59" VerticalAlignment="Center" Width="414" Fill="#FFFBFBFB" RadiusX="15" RadiusY="15"/>
+            <Image HorizontalAlignment="Center" Height="140" Margin="421,118,428,0" VerticalAlignment="top" Width="140" Source="img/icons/logo_icon.png"/>
+            <Border BorderBrush="#00a7ee" BorderThickness="3" SnapsToDevicePixels="True" Padding="0" Margin="319,310,320,0" Width="350" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top" CornerRadius="20" Background="White">
+                <TextBox MaxLength="38"  Opacity="0.7" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  HorizontalAlignment="center" Height="29.833" Margin="10,1.979,10.417,0" Text="" VerticalAlignment="Top" Width="323.583"  TextChanged="TextBox_TextChanged" Name="txtbUsername" BorderThickness="0" FontFamily="Arial" HorizontalScrollBarVisibility="Disabled" UseLayoutRounding="False" SnapsToDevicePixels="True" BorderBrush="{x:Null}" FontSize="15"/>
+            </Border>
+            <Border BorderBrush="#00a7ee" BorderThickness="3" SnapsToDevicePixels="True" Padding="0" Margin="319,409,320,0" Width="350" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top" CornerRadius="20" Background="White">
+                <PasswordBox MaxLength="35" Opacity="0.7" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center" Margin="10,2" Width="324" Name="passbPassword" BorderBrush="{x:Null}" FontFamily="Arial" BorderThickness="0" FontSize="15"/>
+            </Border>
+            <Button Cursor="Hand" Foreground="White" IsDefault="True" Content="LOG IN" HorizontalAlignment="Center" Margin="371,544,368,0" VerticalAlignment="Top" Width="250" Click="LogIn_Click" Name="btnLogIn" BorderThickness="0" SnapsToDevicePixels="True" BorderBrush="{x:Null}" Padding="0" FontFamily="Arial" FontWeight="Bold" FontSize="14" Height="32">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="Orange"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border Background="{TemplateBinding Background}" CornerRadius="15">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Opacity" Value="0.8"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Label Foreground="Black" Target="{Binding ElementName=txtbUsername}" Content="_USERNAME" HorizontalAlignment="Left" Margin="371,283,0,0" VerticalAlignment="Top" Name="lblUsername" Width="86" Padding="0" FontWeight="Bold" FontFamily="Arial" FontSize="15"/>
+            <Label Foreground="Black" Target="{Binding ElementName=passbPassword}" Content="_PASSWORD" HorizontalAlignment="Left" Margin="373,384,0,0" VerticalAlignment="Top" Name="lblPassword" Width="90" Padding="0" FontWeight="Bold" FontFamily="Arial" FontSize="15"/>
+
+            <Label Name="uiErrorSp_1" Content="" HorizontalAlignment="Left" Height="34" Margin="681,313,0,0" VerticalAlignment="Top" Width="34" RenderTransformOrigin="0.5,0.5" Background="Red" Visibility="Collapsed">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-45"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+
+            <Label Name="uiErrorSp_2" Content="" HorizontalAlignment="Left" Height="34" Margin="681,412,0,0" VerticalAlignment="Top" Width="34" RenderTransformOrigin="0.5,0.5" Background="Red" Visibility="Collapsed">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-45"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+
+            <Label Name="uiErrorSp_3" Content="" HorizontalAlignment="Left" Height="34" Margin="677,481,0,0" VerticalAlignment="Top" Width="34" RenderTransformOrigin="0.5,0.5" Background="Red" Visibility="Collapsed">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-45"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+
+
+            <Label Name="uiTipSp" Content="" HorizontalAlignment="Left" Height="26" Margin="699,113,0,0" VerticalAlignment="Top" Width="26" RenderTransformOrigin="0.751,0.162" Background="#FFFBFBFB">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-46.717"/>
+                        <TranslateTransform X="-3.542" Y="-5.601"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+
+            <Label Foreground="White" Background="red"  Content="" HorizontalAlignment="Center" Margin="681,305,96,0" VerticalAlignment="Top" Name="lblErrorMessage_1" Width="212" Height="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Visibility="Collapsed" FontSize="13"/>
+            <Label Foreground="White" Background="red"  Content="" HorizontalAlignment="Center" Margin="681,404,96,0" VerticalAlignment="Top" Name="lblErrorMessage_2" Width="212" Height="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Visibility="Collapsed" FontSize="13"/>
+            <Label Foreground="White" Background="red"  Content="" HorizontalAlignment="Center" Margin="677,473,100,0" VerticalAlignment="Top" Name="lblErrorMessage_3" Width="212" Height="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Visibility="Collapsed" FontSize="13"/>
+
+            <Border Name="borderTip" CornerRadius="10" Width="150" Height="50" BorderBrush="Black" HorizontalAlignment="Right" Background="#FFFBFBFB" Margin="0,98,133,521"/>
+            <Label Foreground="Black"  Content="Hello!!!&#xA;Have a good day :)" HorizontalAlignment="Center" Margin="706,98,133,0" VerticalAlignment="Top" Name="lblTip" Width="150" Height="50" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="14" FontFamily="Arial" FontWeight="Bold" FontStyle="Italic" />
+
+            <Image Source="img/icons/user_icon.png" HorizontalAlignment="Left" Height="26" Margin="338,278,0,0" VerticalAlignment="Top" Width="26"/>
+            <Image Source="img/icons/pass_icon.png" HorizontalAlignment="Left" Height="26" Margin="340,379,0,0" VerticalAlignment="Top" Width="26"/>
+            <Button Name="btnClose" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="X" HorizontalAlignment="Right" Padding="0" VerticalAlignment="Top" Width="40" FontFamily="Arial" FontSize="15" FontWeight="Bold" BorderBrush="{x:Null}" Height="40" Click="btnClose_Click" Margin="0,0,1,0">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="White"/>
+                        <Setter Property="Foreground" Value="#BDBDBD"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border Background="{TemplateBinding Background}" CornerRadius="0">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="Red"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button Name="btnMini" BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="_" HorizontalAlignment="Right" Margin="0,0,41,0" Padding="0" VerticalAlignment="Top" Width="40" FontFamily="Arial" FontSize="15" FontWeight="Bold" BorderBrush="{x:Null}" Height="40" Click="btnMini_Click">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="White"/>
+                        <Setter Property="Foreground" Value="#BDBDBD"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border Background="{TemplateBinding Background}" CornerRadius="0">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="Orange"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Image HorizontalAlignment="Left" Height="36" Width="36" VerticalAlignment="Top" Source="img/icons/logo_icon.png" Margin="2,2,0,0"/>
+
+            <StackPanel Margin="0,40,0,0">
+                <StackPanel.Resources>
+                    <Style x:Key="Flag" TargetType="RadioButton">
+                        <Style.Triggers>
+                            <Trigger Property="IsChecked" Value="False">
+                                <Setter Property="Opacity" Value="0.5"/>
+                            </Trigger>
+                        </Style.Triggers>
+                        <Setter Property="BorderThickness" Value="2"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="RadioButton">
+                                    <Border BorderThickness="0"
+                                    Background="#00a7ee"
+                                    CornerRadius="15">
+                                        <Image Width="30" Height="30" Source="{Binding Path=Content, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </StackPanel.Resources>
+                <ItemsControl Margin="0,440,323,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+                    <UniformGrid Columns="3" Margin="0,0,-4,0" HorizontalAlignment="Right" Width="351">
+                        <RadioButton Content="img/icons/teacher_icon_white.png" Style="{StaticResource Flag}" x:Name="rb_tc"  Width="100" Height="34" Margin="0,0,0,0"/>
+                        <RadioButton Content="img/icons/student_icon_white.png" Style="{StaticResource Flag}" x:Name="rb_st" Width="100" Height="34" Margin="0,0,0,0"/>
+                        <RadioButton Content="img/icons/admin_icon_white.png" Style="{StaticResource Flag}" x:Name="rb_ad" Width="100" Height="34" Margin="0,0,0,0"/>
+                    </UniformGrid>
+                </ItemsControl>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>
